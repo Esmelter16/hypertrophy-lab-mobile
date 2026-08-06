@@ -1,0 +1,1 @@
+import"./jsx-runtime-ChEiXYUN.js";import{t as e}from"./muscles-hpnspFJS.js";var t=new Map(e.muscles.map(e=>[e.id,e.nameEs]));function n(e){return e?e.muscleContributions.filter(e=>e.role===`PRIMARY`).map(e=>t.get(e.muscleId)??e.muscleId):[]}function r(e){return[...new Set(e.flatMap(n))]}export{r as n,n as t};
